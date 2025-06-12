@@ -14,7 +14,7 @@ public class FileLogger implements ILogObserver {
     private final String logFile;
 
     public FileLogger() {
-        this.logFile = "Obed.txt";
+        this.logFile = "application.txt";
     }
 
     private String getLogDirectory(){
