@@ -1,4 +1,9 @@
-package com.example.LoggingSystem.systemdesign;
+package com.example.LoggingSystem.systemdesign.core;
+
+import com.example.LoggingSystem.systemdesign.chain.AbstractLogger;
+import com.example.LoggingSystem.systemdesign.enums.LoggerLevel;
+import com.example.LoggingSystem.systemdesign.manager.LogManager;
+import com.example.LoggingSystem.systemdesign.target.LoggerTarget;
 
 public class Logger {
     private static Logger logger;

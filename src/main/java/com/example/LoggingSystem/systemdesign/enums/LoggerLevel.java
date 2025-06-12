@@ -1,4 +1,4 @@
-package com.example.LoggingSystem.systemdesign;
+package com.example.LoggingSystem.systemdesign.enums;
 
 public enum LoggerLevel {
     INFO(1), DEBUG(2), ERROR(3);

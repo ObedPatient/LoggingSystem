@@ -1,4 +1,7 @@
-package com.example.LoggingSystem.systemdesign;
+package com.example.LoggingSystem.systemdesign.target;
+
+import com.example.LoggingSystem.systemdesign.enums.LoggerLevel;
+import com.example.LoggingSystem.systemdesign.observer.ILogObserver;
 
 import java.util.ArrayList;
 import java.util.Collections;

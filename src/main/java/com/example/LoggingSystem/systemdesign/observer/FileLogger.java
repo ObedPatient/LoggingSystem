@@ -1,4 +1,4 @@
-package com.example.LoggingSystem.systemdesign;
+package com.example.LoggingSystem.systemdesign.observer;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class FileLogger implements ILogObserver{
+public class FileLogger implements ILogObserver {
 
     private final String logFile;
 
@@ -36,7 +36,6 @@ public class FileLogger implements ILogObserver{
     }
     @Override
     public void log(String message) {
-        System.out.println("FileLogger logging: " + message);
         String logDirectory = getLogDirectory();
         createLogDirectory(logDirectory);
         String logFilePath = logDirectory + "/" + logFile;

@@ -1,6 +1,9 @@
-package com.example.LoggingSystem.systemdesign;
+package com.example.LoggingSystem.systemdesign.chain;
 
-public class ErrorLogger extends AbstractLogger{
+import com.example.LoggingSystem.systemdesign.enums.LoggerLevel;
+import com.example.LoggingSystem.systemdesign.target.LoggerTarget;
+
+public class ErrorLogger extends AbstractLogger {
     public ErrorLogger(LoggerLevel level) {
         this.level = level;
     }

@@ -1,4 +1,7 @@
-package com.example.LoggingSystem.systemdesign;
+package com.example.LoggingSystem.systemdesign.chain;
+
+import com.example.LoggingSystem.systemdesign.enums.LoggerLevel;
+import com.example.LoggingSystem.systemdesign.target.LoggerTarget;
 
 public abstract class AbstractLogger {
     protected LoggerLevel level;

@@ -1,4 +1,13 @@
-package com.example.LoggingSystem.systemdesign;
+package com.example.LoggingSystem.systemdesign.manager;
+
+import com.example.LoggingSystem.systemdesign.chain.AbstractLogger;
+import com.example.LoggingSystem.systemdesign.chain.DebugLogger;
+import com.example.LoggingSystem.systemdesign.chain.ErrorLogger;
+import com.example.LoggingSystem.systemdesign.chain.InfoLogger;
+import com.example.LoggingSystem.systemdesign.enums.LoggerLevel;
+import com.example.LoggingSystem.systemdesign.observer.ConsoleLogger;
+import com.example.LoggingSystem.systemdesign.observer.FileLogger;
+import com.example.LoggingSystem.systemdesign.target.LoggerTarget;
 
 public class LogManager {
     public static AbstractLogger doChaining(){
