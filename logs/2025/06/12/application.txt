@@ -1,0 +1,3 @@
+INFO: test without FILE Log Hello World This is Info Message
+DEBUG: test without FILE Log Hello World This is Debug Message
+ERROR: test without FILE Log Hello World This is Error Message
